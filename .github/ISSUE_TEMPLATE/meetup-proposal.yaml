@@ -18,6 +18,14 @@ body:
       label: Description
       description: Please provide a brief description (2-3 sentences) of your proposal, along with any details of your talk.
       placeholder: Presentation Description
+  - type: textarea
+    id: resources
+    validations:
+      required: false
+    attributes:
+      label: Resources
+      description: If you would like to include any additional resources for the audience, please include them here.
+      placeholder: Resources
   - type: input
     id: date
     attributes:
