@@ -1,9 +1,19 @@
-# Blockchain Community of Practice
+<h1 align="center">Blockchain Community of Practice</h1>
 
 
-<p align="left">
+<p align="center">
+<img src="assets/redhat-eth.png" align="center" width="200px"></img>
+
+</p>
+
+<p align="center">
 	The Blockchain Community of Practice is a community within Red Hat for people interested in the decentralized web space.
 </p>
+
+
+<hr>
+
+### Weekly meetings
 
 <p>
 	Meetings may typically consist of either presentations/demonstrations
