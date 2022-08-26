@@ -3,6 +3,7 @@ description: Describe your proposal for a presentation at the Blockchain CoP.
 title: 'Meetup Proposal - '
 body:
   - type: input
+    id: title
     validations:
       required: true
     attributes:
@@ -10,9 +11,18 @@ body:
       description: The title of your presentation.
       placeholder: Presentation Title
   - type: textarea
+    id: description
     validations:
       required: true
     attributes:
       label: Description
       description: Please provide a brief description (2-3 sentences) of your proposal, along with any details of your talk.
       placeholder: Presentation Description
+  - type: input
+    id: date
+    attributes:
+      label: Presentation Date
+      description: |
+        Blockchain CoP meetups occur on Tuesdays at 11AM EDT.
+        Please provide the date on which your talk is scheduled for.
+      placeholder: day/month
