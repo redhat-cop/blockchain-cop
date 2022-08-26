@@ -3,11 +3,15 @@ description: Describe your proposal for a presentation at the Blockchain CoP.
 title: 'Meetup Proposal - '
 body:
   - type: input
+    validations:
+      required: true
     attributes:
       label: Title
       description: The title of your presentation.
       placeholder: Presentation Title
-  - type: input
+  - type: textarea
+    validations:
+      required: true
     attributes:
       label: Description
       description: Please provide a brief description (2-3 sentences) of your proposal, along with any details of your talk.
