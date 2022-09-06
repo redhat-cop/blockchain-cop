@@ -44,3 +44,6 @@ please view The Source, or message somebody about the issue.
 Otherwise, if you are external to the CoP and were invited
 to the meetings, please use the invitation which was emailed to you.
 
+### Viewing past content
+
+You can find past presentations in the [presentations](./presentations/) directory.
