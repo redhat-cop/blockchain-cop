@@ -1,4 +1,4 @@
-# History - IBM's Journey, permission vs permissionless, and Hyperledger
+# History - IBM's Journey, permissioned vs permissionless, and Hyperledger
 
 By Mark Parzygnat ([@markparz](https://github.com/markparz)) and Barry Mosakowski ([@bmos299](https://github.com/bmos299))
 
