@@ -10,6 +10,22 @@ body:
       label: Title
       description: The title of your presentation.
       placeholder: Presentation Title
+  - type: input
+    id: position
+    validations:
+      required: false
+    attributes:
+      label: Position
+      description: Your current job position or academic status
+      placeholder: E.g. Blockchain Engineer at Coinbase
+  - type: input
+    id: organization
+    validations:
+      required: false
+    attributes:
+      label: Organization
+      description: Your current organization that this presentation is related to, if any.
+      placeholder: E.g. Protocol Labs
   - type: textarea
     id: description
     validations:
@@ -34,3 +50,15 @@ body:
         Blockchain CoP meetups occur on Tuesdays at 11AM EDT.
         Please provide the date on which your talk is scheduled for.
       placeholder: day/month
+  - type: textarea
+    id: contact
+    validations:
+      required: false
+    attributes:
+      label: Contact Info
+      description: |
+        Please include any email addresses or social media links here if you would 
+        like people to contact you through them.
+      placeholder: |
+        - Email: bob@example.com
+        - Twitter: @handle
