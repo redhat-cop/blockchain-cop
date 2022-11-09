@@ -16,8 +16,8 @@ body:
       required: false
     attributes:
       label: Position
-      description: Your current job position or academic status
-      placeholder: E.g. Blockchain Engineer at Coinbase
+      description: Your current job position or academic status.
+      placeholder: E.g. Blockchain Engineer, Ph.D. Student, etc.
   - type: input
     id: organization
     validations:
@@ -25,7 +25,7 @@ body:
     attributes:
       label: Organization
       description: Your current organization that this presentation is related to, if any.
-      placeholder: E.g. Protocol Labs
+      placeholder: E.g. Red Hat, Inc.
   - type: textarea
     id: description
     validations:
@@ -44,10 +44,12 @@ body:
       placeholder: Resources
   - type: input
     id: date
+    validations:
+      required: true
     attributes:
       label: Presentation Date
       description: |
-        Blockchain CoP meetups occur on Tuesdays at 11AM EDT.
+        Blockchain CoP meetups occur on Tuesdays at 11AM EST.
         Please provide the date on which your talk is scheduled for.
       placeholder: day/month
   - type: textarea
